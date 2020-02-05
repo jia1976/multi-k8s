@@ -6,7 +6,7 @@ spec:
     secretName: canopusstar-com
     issuerRef:
         name: letsencrypt-prod
-        kind: CkusterIssuer
+        kind: ClusterIssuer
     commonName: canopusstar.com
     dnsNames:
         - canopusstar.com
